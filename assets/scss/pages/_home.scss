@@ -1,0 +1,166 @@
+.hero-section {
+  color: #fff;
+  padding: 0 !important;
+  @media screen and (min-width: 1291px) {
+    height: 77.6rem;
+  }
+  @media screen and (max-width: 1290px) and (min-width: 981px) {
+    height: 67rem;
+  }
+
+  .et_pb_row {
+    display: flex;
+    min-height: 100%;
+    padding: 0;
+  }
+  .et_pb_column:first-child {
+    background: rgba($blue, .8);
+    line-height: 1.38;
+    margin-bottom: 0;
+    padding: 7.5rem 8rem 5rem;
+    @media screen and (max-width: 1550px) {
+      padding: 7.5rem 5rem 5rem;
+    }
+    @media screen and (max-width: 1290px) {
+      padding: 4rem 4rem 3rem;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 1.6rem;
+      padding: 5rem 3rem;
+    }
+    @media screen and (min-width: 981px) {
+      margin-left: -8rem;
+      width: 735px;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  h3 {
+    color: rgba(255,255,255, .7);
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    @media screen and (max-width: 1290px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width: 550px) {
+      font-size: 2rem;
+    }
+  }
+  h2 {
+    font-size: 6.5rem;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 10rem;
+    position: relative;
+    &:after {
+      background: rgba(255,255,255,.4);
+      bottom: -6.8rem;
+      content: '';
+      height: 1px;
+      left: 0;
+      position: absolute;
+      width: 9.5rem;
+    }
+    @media screen and (max-width: 1290px) {
+      font-size: 5.5rem;
+    }
+    @media screen and (max-width: 550px) {
+      font-size: 4.5rem;
+    }
+  }//h2
+
+  .et_pb_button_module_wrapper {
+    margin-top: 5rem;
+    &:before {background: lighten($blue, 5%);}
+    &:hover .et_pb_button {color: #fff;}
+
+    .et_pb_button {
+      border-color: rgba(255,255,255,.6);
+      color: rgba(255,255,255,.7);
+      font-size: 2rem;
+      height: 55px;
+      line-height: 55px !important;
+      width: 193px;
+    }
+  }
+}//.hero-section
+
+
+.section-investment-funds {
+  padding: 3.5rem 0;
+  text-align: center;
+  @media screen and (min-width: 981px) {height: 60rem;}
+
+  .et_pb_module {text-align: center;}
+
+  h3 {
+    font-size: 3.9rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+  h4 {
+    font-size: 3.1rem;
+    font-weight: 700;
+    color: $blue;
+    margin-bottom: 4.5rem;
+    position: relative;
+    &:before, &:after {
+      content: '';
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+    }
+    &:before {
+      background: url('data:image/png;base64,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') no-repeat center;
+      height: .9rem;
+      top: -4.8rem;
+      width: 7.8rem;
+      @media screen and (max-width: 980px) {
+        top: -3rem;
+      }
+    }
+    &:after {
+      background: #9cb6d5;
+      bottom: -1.5rem;
+      height: 1px;
+      width: 8.3rem;
+    }
+  }//h4
+
+  .et_pb_row_2 {
+    @media screen and (min-width: 981px) {
+      display: flex;
+      justify-content: space-between;
+      &:after {
+        content: none;
+      }
+    }
+    .et_pb_column {
+      @media screen and (min-width: 981px) {
+        max-width: 61.5rem;
+      }
+      &:first-child {
+        @media screen and (max-width: 980px) {
+          margin-bottom: 8rem;
+        }
+      }
+    }
+    strong {
+      display: block;
+      font-weight: 500;
+    }
+  }//.et_pb_row_2
+
+  .et_pb_button_module_wrapper {
+    margin-top: 2rem;
+    @media screen and (max-width: 980px) {
+      margin-top: 1rem;
+    }
+  }
+
+}//.section-investment-funds

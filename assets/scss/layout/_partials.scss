@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5,h6 {
+  span {white-space: nowrap;}
+}
+
+.et_pb_post_title {
+  align-items: center;
+  display: flex;
+  height: 17rem ;
+  padding: 0 !important;
+  .et_pb_title_container {
+    padding: 0 !important;
+  }
+  .entry-title {
+    color: #fff;
+    font-size: 4.7rem;
+    font-weight: 300;
+  }
+}//.et_pb_post_title

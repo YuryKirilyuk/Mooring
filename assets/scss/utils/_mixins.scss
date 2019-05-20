@@ -1,0 +1,39 @@
+@mixin hover($color) {
+  background-color: $color;
+  &:hover {background-color: darken($color, 5%);}
+}
+@mixin truncate($arg) {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: $arg;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder           { @content; }
+  &::-moz-placeholder          { @content; }
+  &:-ms-input-placeholder      { @content; }
+}
+
+@mixin underline {
+  position: relative;
+  &:after {
+    background-color: $blue;
+    bottom: 0;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .4s cubic-bezier(0.86, 0, 0.07, 1);
+    width: 100%;
+  }
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}

@@ -1,0 +1,92 @@
+.section-investment-funds_page {
+  @media screen and (min-width: 981px) {
+    padding-bottom: 10rem !important;
+    padding-top: 6.5rem !important;
+  }
+
+  h3 {
+    color: #000;
+    font-size: 3.9rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    + p {
+      margin-bottom: 3rem;
+      strong {font-size: 21px;}
+    }
+  }//h3
+
+
+  .et_pb_testimonial {
+    font-size: 2.1rem;
+    line-height: 1.28;
+    margin-top: 11rem;
+    padding-left: 0;
+    @media screen and (min-width: 769px) {
+      padding-top: 0;
+    }
+    &:before {
+      background: url('data:image/svg+xml;utf8,<svg width="72.093" height="56.063" viewBox="0 0 72.093 56.063" xmlns="http://www.w3.org/2000/svg"><title>heart-colored</title><path d="M32.703,5.697 C30.463,6.757 27.961,8.218 25.200,10.056 C22.432,11.901 20.274,13.671 18.727,15.371 C16.957,17.302 15.423,19.456 14.120,21.857 C12.834,24.258 11.986,27.002 11.573,30.095 L16.060,30.095 C20.700,30.095 24.325,30.975 26.925,32.727 C29.524,34.479 31.099,36.923 31.651,40.051 C32.365,44.102 31.304,47.776 28.471,51.092 C25.630,54.416 21.863,56.074 17.146,56.074 C12.172,56.074 8.346,54.733 5.649,52.040 C2.953,49.349 1.230,45.879 0.480,41.624 C-0.993,33.266 1.113,25.250 6.804,17.584 C12.485,9.919 20.040,4.056 29.479,0.014 L32.703,5.697 ZM72.082,5.697 C69.842,6.757 67.340,8.218 64.579,10.056 C61.810,11.901 59.653,13.671 58.106,15.371 C56.336,17.302 54.802,19.456 53.499,21.857 C52.213,24.258 51.364,27.002 50.952,30.095 L55.439,30.095 C60.079,30.095 63.704,30.975 66.304,32.727 C68.903,34.479 70.478,36.923 71.030,40.051 C71.744,44.102 70.683,47.776 67.849,51.092 C65.009,54.416 61.242,56.074 56.525,56.074 C51.551,56.074 47.725,54.733 45.028,52.040 C42.332,49.349 40.609,45.879 39.859,41.624 C38.385,33.266 40.492,25.250 46.182,17.584 C51.864,9.919 59.419,4.056 68.858,0.014 L72.082,5.697 Z" fill="%230b509e"/></svg>') no-repeat center;
+      border-radius: 0;
+      content: '';
+      height: 60px;
+      left: auto;
+      right: 3.5rem;
+      top: -4rem;
+      width: 75px;
+      @media screen and (max-width: 768px) {
+        background-size: contain;
+        height: 40px;
+        top: -2rem;
+        width: 50px;
+      }
+    }
+    &:after {
+      background: #f2f4f4;
+      display: block;
+      bottom: 0;
+      height: 100%;
+      top: 0;
+      position: absolute;
+      right: 100%;
+      visibility: visible;
+      width: 100%;
+    }
+
+    .et_pb_testimonial_description_inner {
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+      > p:first-child {
+        order: 1;
+        @media screen and (min-width: 769px) {
+          margin-left: -17rem;
+        }
+      }
+    }//.et_pb_testimonial_description_inner
+
+    .et_pb_testimonial_portrait {
+      @media screen and (min-width: 769px) {
+        margin-top: -3rem;
+      }
+    }
+    .et_pb_testimonial_author {
+      color: #09458b;
+      font-size: 3.1rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+      @media screen and (max-width: 1180px) and (min-width: 981px) {
+        font-size: 2.5rem;
+      }
+    }
+    .et_pb_testimonial_meta {
+      color: #09458b;
+      font-size: 1.8rem;
+      margin-bottom: 4rem;
+    }//.et_pb_testimonial_meta
+
+  }//.et_pb_testimonial
+
+  .et_pb_column_1_2 {
+    p {margin-bottom: 3rem;}
+  }
+}//.section-investment-funds_page

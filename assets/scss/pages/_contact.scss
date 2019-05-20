@@ -1,0 +1,32 @@
+.section-contact-us {
+  @media screen and (min-width: 981px) {
+    padding: 10rem 0 !important;
+  }
+  .et_pb_text_inner {
+    display: flex;
+    font-size: 2.1rem;
+    line-height: 1.28;
+    @media screen and (max-width: 1300px) {
+      flex-direction: column;
+    }
+    a {
+      color: #0b509e;
+      display: inline-block;
+      @include underline;
+    }
+  }
+  h3 {
+    font-size: 3.9rem;
+    font-weight: 300;
+    margin-right: 6.5rem;
+    white-space: nowrap;
+  }
+}
+
+.section-map {
+  iframe {
+    display: block;
+    height: 525px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,138 @@
+.section-team {
+  @media screen and (min-width: 981px) {
+    padding-bottom: 11rem !important;
+    padding-top: 7rem !important;
+  }
+}//.section-team
+
+
+.section-team-ceo {
+
+  blockquote {
+    background: url('data:image/svg+xml;utf8,<svg width="52.469" height="40.813" viewBox="0 0 52.469 40.813" xmlns="http://www.w3.org/2000/svg"><title>heart-colored</title><path d="M23.784,4.135 C22.153,4.907 20.331,5.971 18.320,7.309 C16.304,8.654 14.733,9.942 13.607,11.180 C12.317,12.586 11.200,14.155 10.251,15.903 C9.315,17.652 8.697,19.650 8.397,21.902 L11.664,21.902 C15.043,21.902 17.683,22.543 19.576,23.819 C21.469,25.095 22.616,26.875 23.018,29.152 C23.538,32.102 22.765,34.778 20.702,37.193 C18.633,39.614 15.890,40.821 12.455,40.821 C8.833,40.821 6.046,39.844 4.083,37.884 C2.119,35.923 0.865,33.397 0.318,30.298 C-0.755,24.211 0.780,18.374 4.923,12.792 C9.061,7.210 14.562,2.940 21.436,-0.003 L23.784,4.135 ZM52.461,4.135 C50.829,4.907 49.007,5.971 46.996,7.309 C44.980,8.654 43.409,9.942 42.283,11.180 C40.994,12.586 39.877,14.155 38.928,15.903 C37.992,17.652 37.373,19.650 37.073,21.902 L40.341,21.902 C43.719,21.902 46.359,22.543 48.252,23.819 C50.145,25.095 51.293,26.875 51.694,29.152 C52.214,32.102 51.442,34.778 49.378,37.193 C47.309,39.614 44.566,40.821 41.131,40.821 C37.509,40.821 34.723,39.844 32.759,37.884 C30.796,35.923 29.541,33.397 28.995,30.298 C27.922,24.211 29.456,18.374 33.600,12.792 C37.737,7.210 43.239,2.940 50.113,-0.003 L52.461,4.135 Z" fill="%230b509e"/></svg>') no-repeat 22px 43%;
+    border-bottom: 1px solid #95b0ce;
+    border-left: none;
+    border-top: 1px solid #95b0ce;
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 1.28;
+    margin-bottom: 5.5rem;
+    padding: 3.8rem 15rem 4.3rem 12rem;
+    position: relative;
+    @media screen and (max-width: 1250px) {
+      padding-right: 5rem;
+    }
+    @media screen and (max-width: 900px) and (min-width: 768px) {
+      display: inline-block;
+    }
+    @media screen and (max-width: 767px) {
+      clear: both;
+      display: block;
+    }
+    @media screen and (max-width: 650px) {
+      //background-position: 5px 43%;
+      font-size: 1.8rem;
+      padding-right: 3rem;
+    }
+    @media screen and (max-width: 480px) {
+      background-position: 0 3%;
+      background-size: 30px 30px;
+      font-size: 1.6rem;
+      padding: 3rem 1rem 3rem 4rem;
+    }
+  }//blockquote
+
+  ul {
+    line-height: 1.33;
+    margin-bottom: .1rem;
+    margin-top: .5rem;
+    li {
+      list-style: none;
+      margin-bottom: 1.5rem;
+      position: relative;
+      &:before {
+        background: #6792c0;
+        content: '';
+        height: 7px;
+        left: -1.9rem;
+        position: absolute;
+        top: 8px;
+        width: 7px;
+      }
+      a {
+        @include underline;
+        &:after {height: 1px;}
+      }
+    }
+  }
+}//.section-team-ceo
+
+.et_pb_team_member {
+  @media screen and (min-width: 981px) {
+    display: flex;
+    margin-bottom: 3.5rem !important;
+  }
+  .et_pb_team_member_image {
+    flex-shrink: 0;
+    text-align: center;
+    width: auto;
+    @media screen and (min-width: 981px) {
+      margin-right: 5rem;
+    }
+    @media screen and (min-width: 481px) {
+      max-width: 20rem;
+    }
+    @media screen and (max-width: 900px) and (min-width: 769px) {
+      margin-bottom: 2rem;
+    }
+    @media screen and (max-width: 768px) and (min-width: 481px) {
+      float: left;
+      margin-bottom: 3rem;
+      margin-right: 3rem;
+    }
+    @media screen and (max-width: 550px) {
+      margin-right: 2rem;
+    }
+    @media screen and (max-width: 480px) {
+      max-width: 100%;
+    }
+  }//.et_pb_team_member_image
+
+  .et_pb_team_member_description {
+    max-width: 92rem;
+    @media screen and (min-width: 981px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    @media screen and (max-width: 900px) and (min-width: 769px) {
+      display: block;
+    }
+  }
+
+  .et_pb_module_header {
+    font-size: 3.9rem;
+    font-weight: 300;
+    margin-bottom: 3px;
+    @media screen and (max-width: 550px) {
+      font-size: 3.2rem;
+    }
+    @media screen and (max-width: 480px) {
+      text-align: center;
+    }
+  }//.et_pb_module_header
+
+  .et_pb_member_position {
+    color: #155093;
+    font-size: 2.7rem;
+    margin-bottom: 3.5rem;
+    @media screen and (max-width: 550px) {
+      font-size: 2.2rem;
+    }
+    @media screen and (max-width: 480px) {
+      line-height: 1;
+      text-align: center;
+    }
+  }//.et_pb_member_position
+
+}//.et_pb_team_member
